@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "testes-automatizados",
+      "title": "Testes Automatizados",
+      "description": "Escrevendo testes com unittest para funções e classes em Python",
+      "path": "assignments/testes-automatizados",
+      "dueDate": "2026-11-25",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
