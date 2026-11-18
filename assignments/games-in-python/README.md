@@ -1,19 +1,45 @@
 
-# 🎮 Desafio: Jogo da Forca
+# 📘 Atividade: Jogo da Forca
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+## 🎯 Objetivo
 
-## 🎯 O Que Você Vai Construir
+Construir o clássico jogo de adivinhar palavras, praticando manipulação de strings, loops, condicionais e seleção aleatória em Python.
 
-Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
+## 📝 Tarefas
 
-**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
+### 🛠️	Selecionar e Exibir a Palavra Oculta
 
-## ✅ Requisitos Obrigatórios
+#### Descrição
+Escolha uma palavra aleatoriamente de uma lista predefinida e mostre o progresso do jogador, com um traço para cada letra ainda não descoberta.
 
-Seu jogo deve:
+#### Requisitos
+O programa concluído deve:
+
 - Selecionar palavras aleatoriamente de uma lista predefinida
-- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
-- Rastrear tentativas incorretas restantes
-- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
-- Exibir mensagens de vitória/derrota
+- Exibir a palavra no formato `_ _ _`, mostrando apenas as letras já adivinhadas
+
+
+### 🛠️	Processar Palpites e Tentativas
+
+#### Descrição
+Aceite palpites de letras do usuário, atualize o progresso da palavra e controle quantas tentativas incorretas ainda restam.
+
+#### Requisitos
+O programa concluído deve:
+
+- Aceitar um palpite de letra por vez
+- Revelar todas as ocorrências da letra correta na palavra
+- Rastrear e exibir as tentativas incorretas restantes
+
+
+### 🛠️	Encerrar o Jogo e Exibir o Resultado
+
+#### Descrição
+Defina quando a partida termina, seja porque o jogador adivinhou a palavra ou porque esgotou as tentativas, e mostre a mensagem correspondente.
+
+#### Requisitos
+O programa concluído deve:
+
+- Encerrar quando a palavra for totalmente adivinhada
+- Encerrar quando as tentativas incorretas se esgotarem
+- Exibir mensagens de vitória ou derrota
